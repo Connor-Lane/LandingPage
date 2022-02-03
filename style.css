@@ -1,0 +1,44 @@
+/* Importing the Nunito Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 2;
+}
+
+#navigation {
+    height: 125px;
+    display: flex;
+    align-items: center;
+    background-color: burlywood;
+}
+
+i {
+    font-size: 35px;
+    color: yellow;
+}
+
+#navigation h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 35px;
+}
+
+
+#navigation div {
+    display: flex;
+}
+
+#navigation div h1:hover {
+    color: white;
+}
+
+#landing {
+    /* background-image: ; */
+}
