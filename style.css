@@ -40,5 +40,29 @@ i {
 }
 
 #landing {
-    /* background-image: ; */
+    background-image: url(littleTaste.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 100vh;
+}
+
+#message {
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+#button {
+    align-self: center;
+    margin-top: 5px;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#button:hover {
+    transform: scale(0.9);
 }
